@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-800">MK Store</a>
+            <ul class="flex space-x-6">
+                <li><a href="#" class="text-gray-600 hover:text-blue-500">Home</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-blue-500">Shop</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-blue-500">About</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-blue-500">Contact</a></li>
+            </ul>
+            <div>
+                <a href="#" class="text-gray-600 hover:text-blue-500">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">Welcome to MK Store</h1>
+            <p class="text-gray-600 mb-6">Discover amazing deals on your favorite products.</p>
+            <a href="#" class="px-6 py-3 bg-blue-500 text-white rounded-full hover:bg-blue-600">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Product Highlights -->
+    <section class="py-12">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-8">Featured Products</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Product Card 1 -->
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <div class="w-full h-48 overflow-hidden rounded-md">
+                        <img src="images/p2.jpg" alt="Product 1" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800 mt-4">Product 1</h3>
+                    <p class="text-gray-600">$29.99</p>
+                    <a href="#" class="block mt-4 px-4 py-2 bg-blue-500 text-white text-center rounded-full hover:bg-blue-600">Add to Cart</a>
+                </div>
+                
+                <!-- Product Card 2 -->
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <img src="images/p1.jpg" alt="Product 2" class="w-full h-48 object-cover rounded-md">
+                    <h3 class="text-lg font-bold text-gray-800 mt-4">Product 2</h3>
+                    <p class="text-gray-600">$39.99</p>
+                    <a href="#" class="block mt-4 px-4 py-2 bg-blue-500 text-white text-center rounded-full hover:bg-blue-600">Add to Cart</a>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <img src="images/p3.jpg" alt="Product 3" class="w-full h-48 object-cover rounded-md">
+                    <h3 class="text-lg font-bold text-gray-800 mt-4">Product 3</h3>
+                    <p class="text-gray-600">$49.99</p>
+                    <a href="#" class="block mt-4 px-4 py-2 bg-blue-500 text-white text-center rounded-full hover:bg-blue-600">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 MK Store. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
